@@ -25,7 +25,7 @@ with open(filename, "r") as conf:
             continue
         if any(word in ignore for word in words):
                     continue
-        print(line.strip())
+        print(line.rstrip())
 
 #Task HW4b:
 
